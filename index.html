@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Analytics Law Firm — Empowering MSMEs with Legal Clarity</title>
+  <meta name="description" content="Analytics Law Firm: Tech-forward legal services for MSMEs, startups and small businesses. Cheque bounce, consumer disputes, contract drafting, data protection and more." />
+  <meta name="keywords" content="MSME legal, cheque bounce, consumer court, contract review, data protection, small business legal, India" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#0b2540" />
+
+  <!-- Organization structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Analytics Law Firm",
+    "url": "https://www.analyticslawfirm.com",
+    "logo": "logo.png",
+    "description": "Tech-forward legal services for MSMEs, startups and small businesses in India.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+
+  <style>
+    :root{
+      --navy:#0b2540; --charcoal:#262626; --muted:#6b7280; --accent:#c49a36; --glass: rgba(11,37,64,0.06);
+      --max:1100px; --gap:28px; font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;color:var(--charcoal);background:#fff}
+    a{color:inherit;text-decoration:none}
+    header{position:sticky;top:0;backdrop-filter: blur(6px);background:linear-gradient(180deg, rgba(255,255,255,0.75), rgba(255,255,255,0.6));border-bottom:1px solid #eef2f6;z-index:40}
+    .container{max-width:var(--max);margin:0 auto;padding:24px}
+    nav{display:flex;align-items:center;gap:18px;justify-content:space-between}
+    .logo-row{display:flex;gap:12px;align-items:center}
+    .logo-row img{height:56px;width:auto}
+    .brand{font-weight:700;color:var(--navy);letter-spacing:0.6px}
+    .nav-links{display:flex;gap:14px;align-items:center}
+    .nav-links a{padding:8px 10px;border-radius:8px;font-weight:600;color:var(--muted);font-size:15px}
+    .nav-links a.active, .nav-links a:hover{color:var(--navy);background:var(--glass)}
+    .cta{background:var(--navy);color:#fff;padding:10px 14px;border-radius:8px;font-weight:700}
+
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:36px;align-items:center;padding:64px 24px}
+    .hero h1{font-size:34px;margin:0 0 12px 0;color:var(--navy);line-height:1.05}
+    .hero p{margin:0 0 20px;color:var(--muted);max-width:54ch}
+    .hero .actions{display:flex;gap:12px}
+    .card{background:#fff;border-radius:12px;padding:18px;box-shadow:0 6px 24px rgba(11,37,64,0.06);}
+
+    /* Services */
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+    .service{padding:18px;border-radius:12px;background:linear-gradient(180deg,#fff,#fbfcff);display:flex;gap:12px;align-items:flex-start}
+    .service svg{width:40px;height:40px;flex-shrink:0}
+    .service h4{margin:0;font-size:16px}
+    .service p{margin:6px 0 0;color:var(--muted);font-size:14px}
+
+    /* Sections */
+    section{padding:48px 0;border-bottom:1px solid #f3f6f9}
+    .lead{max-width:760px;color:var(--muted)}
+
+    .approach{display:flex;gap:20px;align-items:center}
+    .approach .left{flex:1}
+    .approach .right{width:380px}
+
+    .testimonials{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .testimonial{padding:18px;border-radius:12px;background:#fff;box-shadow:0 6px 20px rgba(11,37,64,0.04)}
+
+    /* Team */
+    .team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .member{padding:18px;background:#fff;border-radius:12px;text-align:center}
+    .avatar{width:96px;height:96px;border-radius:50%;margin:0 auto;background:#eef2f6;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--navy)}
+
+    /* Contact */
+    .contact-grid{display:grid;grid-template-columns:1fr 420px;gap:18px}
+    form{display:grid;gap:12px}
+    input,textarea,select{padding:12px;border-radius:8px;border:1px solid #e6eef6;font-size:14px}
+    button{padding:12px;border-radius:10px;border:0;font-weight:700}
+
+    footer{padding:28px 0;color:var(--muted);font-size:14px}
+
+    /* Responsive */
+    @media (max-width:980px){.hero{grid-template-columns:1fr;}.services{grid-template-columns:1fr}.team-grid{grid-template-columns:repeat(2,1fr)}.testimonials{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}}
+    @media (max-width:520px){.nav-links{display:none}.logo-row img{height:46px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo-row">
+          <img src="/logo.png" alt="Analytics Law Firm logo"/>
+          <div>
+            <div class="brand">Analytics Law Firm</div>
+            <div style="font-size:12px;color:var(--muted)">Legal clarity for MSMEs & startups</div>
+          </div>
+        </div>
+        <div class="nav-links" aria-label="Primary Navigation">
+          <a href="#home" class="active">Home</a>
+          <a href="#practice">Practice Areas</a>
+          <a href="#team">Our Team</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a class="cta" href="#contact">Book a Free Consultation</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero container" aria-labelledby="hero-heading">
+      <div>
+        <h1 id="hero-heading">Empowering MSMEs with Legal Clarity</h1>
+        <p class="lead">Focused legal solutions for small businesses, startups, and individuals — practical, timely and tech-forward advice for business owners across India.</p>
+        <div class="actions">
+          <a class="cta" href="#contact">Book a Free Legal Consultation</a>
+          <a href="#practice" style="padding:10px 12px;border-radius:8px;background:transparent;border:1px solid var(--navy);font-weight:700">Explore Practice Areas</a>
+        </div>
+
+        <div style="margin-top:28px">
+          <div style="font-weight:700;margin-bottom:10px">Core focus areas</div>
+          <div class="services" role="list">
+            <div class="service" role="listitem">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden>
+                <path d="M3 7h18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+                <path d="M12 3v18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <h4>Cheque Bounce (Sec.138)</h4>
+                <p>Recovery, representation and strategic advice for negotiable instrument disputes.</p>
+              </div>
+            </div>
+            <div class="service">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden>
+                <circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="1.4"/>
+                <path d="M6 20c1-3 5-5 6-5s5 2 6 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <h4>Consumer Court Matters</h4>
+                <p>Representation and dispute resolution for product/service and e-commerce related claims.</p>
+              </div>
+            </div>
+            <div class="service">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden>
+                <rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.4"/>
+                <path d="M8 8h8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <h4>MSME & Contract Advisory</h4>
+                <p>Contract drafting, reviews and compliance support tailored for MSMEs and startups.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="card">
+        <div style="display:flex;align-items:center;gap:12px">
+          <img src="/logo.png" alt="Analytics Law Firm logo" style="height:56px"/>
+          <div>
+            <div style="font-weight:700">Book a Free Consultation</div>
+            <div style="color:var(--muted);font-size:13px">15–30 minute initial call to assess your case and next steps.</div>
+          </div>
+        </div>
+        <hr style="border:none;border-top:1px solid #eef4fb;margin:14px 0">
+        <form onsubmit="event.preventDefault(); openMailClient();" aria-label="Consultation form">
+          <input id="name" required placeholder="Full name" />
+          <input id="email" type="email" required placeholder="Email address" />
+          <input id="phone" placeholder="Phone (optional)" />
+          <select id="area" aria-label="Select practice area">
+            <option value="">Area of concern (optional)</option>
+            <option>Cheque bounce / Recovery</option>
+            <option>Consumer dispute</option>
+            <option>Contract review</option>
+            <option>Data protection / Compliance</option>
+          </select>
+          <textarea id="message" rows="3" placeholder="Brief message (optional)"></textarea>
+          <div style="display:flex;gap:8px">
+            <button class="cta" type="submit">Request Consultation</button>
+            <a href="https://wa.me/911234567890" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;padding:10px;border-radius:10px;border:1px solid var(--navy);font-weight:700">WhatsApp</a>
+          </div>
+        </form>
+      </aside>
+    </section>
+
+    <!-- Approach / Tech-forward -->
+    <section id="approach" class="container" aria-labelledby="approach-heading">
+      <div style="display:flex;flex-direction:column;gap:18px">
+        <h2 id="approach-heading">A tech-forward approach to business law</h2>
+        <p class="lead">We combine legal expertise with efficient, data-informed workflows that help small businesses move faster — clearer contracts, timely advice and pragmatic dispute resolution.</p>
+
+        <div class="approach">
+          <div class="left card">
+            <h3 style="margin-top:0">How we work</h3>
+            <ul style="margin:10px 0 0 18px;color:var(--muted)">
+              <li>Practical advice focused on business outcomes</li>
+              <li>Template-driven contract review for speed and consistency</li>
+              <li>Early-stage dispute resolution to reduce cost and downtime</li>
+              <li>Data protection and compliance tailored for small businesses</li>
+            </ul>
+          </div>
+          <div class="right card">
+            <h4 style="margin:0">Deliverables you can expect</h4>
+            <ol style="margin:10px 0 0 18px;color:var(--muted)">
+              <li>Clear engagement letter with scope & fee estimate</li>
+              <li>Contract redlines and compliance checklist</li>
+              <li>Process map for dispute escalation</li>
+              <li>Practical data handling guidelines for customers</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Practice Areas -->
+    <section id="practice" class="container" aria-labelledby="practice-heading">
+      <h2 id="practice-heading">Practice Areas</h2>
+      <p class="lead">Focused services for MSMEs, startups and small businesses.</p>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px">
+        <article class="card">
+          <h4>Cheque Bounce & Recovery</h4>
+          <p class="lead">Representation under Section 138 of the Negotiable Instruments Act — drafting legal notices, negotiating settlements, and court representation when required.</p>
+        </article>
+        <article class="card">
+          <h4>Consumer Court Cases</h4>
+          <p class="lead">Handling product/service disputes, e-commerce claims, and representing consumers and businesses in consumer forums.</p>
+        </article>
+        <article class="card">
+          <h4>MSME Legal Advisory</h4>
+          <p class="lead">Tailored advisory for MSMEs — registration, contracts, compliance and dispute prevention.</p>
+        </article>
+        <article class="card">
+          <h4>Contract Review & Drafting</h4>
+          <p class="lead">Commercial agreements, vendor/customer contracts, NDAs and customised templates focused on risk reduction.</p>
+        </article>
+        <article class="card">
+          <h4>Business Dispute Resolution</h4>
+          <p class="lead">Mediation, negotiation and litigation strategies aimed at cost-effective resolution for small businesses.</p>
+        </article>
+        <article class="card">
+          <h4>Data Protection & Compliance</h4>
+          <p class="lead">Practical data handling policies, vendor contracts, and compliance checks suitable for small businesses and startups.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="container" aria-labelledby="testi-heading">
+      <h2 id="testi-heading">Client testimonials</h2>
+      <div class="testimonials" style="margin-top:12px">
+        <div class="testimonial">
+          <strong>Ravi K., Founder</strong>
+          <p style="margin:8px 0;color:var(--muted)">"Analytics Law Firm helped us resolve a cheque bounce matter quickly and with minimal cost. Their approach was practical and focused on our business needs."</p>
+        </div>
+        <div class="testimonial">
+          <strong>Priya S., Operations Head</strong>
+          <p style="margin:8px 0;color:var(--muted)">"Fast contract review and clear redlines — we were able to negotiate better terms with our suppliers."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="container" aria-labelledby="team-heading">
+      <h2 id="team-heading">Our team</h2>
+      <p class="lead">Experienced advocates and legal consultants with focus on small businesses.</p>
+      <div class="team-grid" style="margin-top:18px">
+        <div class="member card">
+          <div class="avatar">MP</div>
+          <h4 style="margin:12px 0 6px">Aakash Verma</h4>
+          <div style="color:var(--muted);font-weight:600">Managing Partner</div>
+          <p style="color:var(--muted);font-size:14px;margin-top:8px">A litigation-focused advocate with 12+ years' experience in commercial and negotiable instrument disputes.</p>
+        </div>
+        <div class="member card">
+          <div class="avatar">PR</div>
+          <h4 style="margin:12px 0 6px">Pooja Reddy</h4>
+          <div style="color:var(--muted);font-weight:600">Partner</div>
+          <p style="color:var(--muted);font-size:14px;margin-top:8px">Specialist in consumer law and contract advisory for MSMEs.</p>
+        </div>
+        <div class="member card">
+          <div class="avatar">SA</div>
+          <h4 style="margin:12px 0 6px">Sahil Agarwal</h4>
+          <div style="color:var(--muted);font-weight:600">Associate Advocate</div>
+          <p style="color:var(--muted);font-size:14px;margin-top:8px">Handles case preparation, drafting and client coordination.</p>
+        </div>
+        <div class="member card">
+          <div class="avatar">LC</div>
+          <h4 style="margin:12px 0 6px">Lekha Chandran</h4>
+          <div style="color:var(--muted);font-weight:600">Legal Consultant</div>
+          <p style="color:var(--muted);font-size:14px;margin-top:8px">Focus on data protection & compliance for small businesses.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Analytics Law Firm</h2>
+      <p class="lead">Founded to bridge the gap between law and business, Analytics Law Firm makes quality legal services accessible to MSMEs and startups across India.</p>
+      <div style="display:flex;gap:18px;margin-top:18px;flex-wrap:wrap">
+        <div style="flex:1;min-width:300px" class="card">
+          <h4>Our story</h4>
+          <p style="color:var(--muted)">Established by a group of commercially-minded advocates, we recognised that small businesses need practical legal help that moves at business speed. We combine repeatable processes, standardised templates and pragmatic negotiation to reduce legal friction for our clients.</p>
+        </div>
+        <div style="flex:1;min-width:300px" class="card">
+          <h4>Mission & Vision</h4>
+          <p style="color:var(--muted)"><strong>Mission:</strong> Making quality legal services accessible to MSMEs.<br><strong>Vision:</strong> Bridge the gap between law and business through practical, proportionate advice.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <p class="lead">Fill the form or reach out directly. We'll respond within 48 business hours.</p>
+
+      <div class="contact-grid" style="margin-top:18px">
+        <div>
+          <form onsubmit="event.preventDefault(); openMailClient();" aria-label="Contact form">
+            <input id="c-name" placeholder="Full name*" required />
+            <input id="c-email" placeholder="Email*" type="email" required />
+            <input id="c-phone" placeholder="Phone" />
+            <select id="c-area"><option value="">Select service</option><option>Cheque bounce</option><option>Consumer court</option><option>Contract review</option><option>Data protection</option></select>
+            <textarea id="c-message" rows="5" placeholder="How can we help?*" required></textarea>
+            <div style="display:flex;gap:8px">
+              <button class="cta" type="submit">Send enquiry</button>
+              <a class="cta" style="background:#fff;color:var(--navy);border:1px solid var(--navy);font-weight:700" href="mailto:contact@analyticslawfirm.in">Email us</a>
+            </div>
+          </form>
+
+          <div style="margin-top:16px;color:var(--muted)">
+            <p style="margin:6px 0"><strong>Email:</strong> contact@analyticslawfirm.in</p>
+            <p style="margin:6px 0"><strong>Phone:</strong> +91 22 1234 5678</p>
+            <p style="margin:6px 0"><strong>Office:</strong> Unit 5, Business Bay, Mumbai, Maharashtra, India</p>
+            <p style="margin:6px 0">Connect via WhatsApp: <a href="https://wa.me/911234567890" target="_blank" rel="noopener">+91 12 3456 7890</a></p>
+          </div>
+        </div>
+
+        <aside class="card">
+          <h4>Our location</h4>
+          <div style="width:100%;height:260px;border-radius:8px;overflow:hidden;margin-top:10px">
+            <iframe title="Analytics Law Firm office map" width="100%" height="100%" style="border:0" loading="lazy"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.45!2d72.8777!3d19.0760!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce3a9b5b5f3d%3A0x0!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin"></iframe>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Legal pages links -->
+    <section class="container" style="padding-bottom:96px">
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <a href="#legal-disclaimer">Disclaimer</a>
+        <a href="#legal-privacy">Privacy Policy</a>
+        <a href="#legal-terms">Terms & Conditions</a>
+      </div>
+
+      <div id="legal-disclaimer" style="margin-top:18px">
+        <h3>Disclaimer</h3>
+        <p style="color:var(--muted)">This website provides general information only and does not constitute legal advice. Using this website or communicating with Analytics Law Firm via the contact form does not create a lawyer-client relationship.</p>
+      </div>
+      <div id="legal-privacy" style="margin-top:10px">
+        <h3>Privacy Policy (summary)</h3>
+        <p style="color:var(--muted)">We collect personal information you provide to respond to enquiries. We do not sell personal data. For full policy, replace this summary with your complete privacy policy written by counsel.</p>
+      </div>
+      <div id="legal-terms" style="margin-top:10px">
+        <h3>Terms & Conditions</h3>
+        <p style="color:var(--muted)">This site is for informational purposes. Specific engagement terms will be set out in written engagement letters for any retained matter.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <div style="display:flex;gap:12px;align-items:center"><img src="/logo.png" alt="Analytics Law Firm logo small" style="height:38px"/><div style="font-weight:700">Analytics Law Firm</div></div>
+      <div style="color:var(--muted)">© <span id="year"></span> Analytics Law Firm — All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+    // small utilities
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function openMailClient(){
+      var n = (document.getElementById('name')||document.getElementById('c-name')).value || '';
+      var e = (document.getElementById('email')||document.getElementById('c-email')).value || '';
+      var ph = (document.getElementById('phone')||document.getElementById('c-phone')).value || '';
+      var a = (document.getElementById('area')||document.getElementById('c-area')).value || '';
+      var msg = (document.getElementById('message')||document.getElementById('c-message')).value || '';
+      var subject = encodeURIComponent('Consultation request — Analytics Law Firm');
+      var body = encodeURIComponent('Name: '+n+'\nEmail: '+e+'\nPhone: '+ph+'\nArea: '+a+'\n\nMessage:\n'+msg);
+      window.location.href = 'mailto:contact@analyticslawfirm.in?subject='+subject+'&body='+body;
+    }
+
+    // simple hash routing for single-file multi-page behaviour
+    var sections = { '#home': 'Empowering MSMEs with Legal Clarity', '#practice': 'Practice Areas — Analytics Law Firm', '#team': 'Our Team — Analytics Law Firm', '#about': 'About — Analytics Law Firm', '#contact': 'Contact — Analytics Law Firm' };
+    function applyRoute(){
+      var h = location.hash || '#home';
+      for(var a of document.querySelectorAll('.nav-links a')){ a.classList.remove('active'); if(a.getAttribute('href')===h) a.classList.add('active'); }
+      if(sections[h]){
+        document.title = sections[h];
+        var meta = document.querySelector('meta[name="description"]');
+        if(meta) meta.setAttribute('content', 'Analytics Law Firm — '+sections[h]);
+        var el = document.querySelector(h);
+        if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+      }
+    }
+    window.addEventListener('hashchange', applyRoute);
+    window.addEventListener('load', applyRoute);
+
+    // accessibility: keyboard focus
+    document.addEventListener('keydown', function(e){ if(e.key==='/' && document.activeElement.tagName!=='INPUT') { e.preventDefault(); document.getElementById('c-name').focus(); } });
+  </script>
+</body>
+</html>
